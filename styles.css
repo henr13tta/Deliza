@@ -1,0 +1,49 @@
+body {
+    font-family: 'Special Elite', static;
+    background-color: #f8f6ea;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+}
+
+nav {
+    background-color: #424242;
+    padding: 30px;
+}
+
+nav a {
+    color: rgb(206, 206, 206);
+    margin: 0 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active {
+    text-decoration: underline;
+    
+}
+
+body.index {
+    background-color: #424242;
+    color: #ffffff;
+}
+
+body.gallery {
+    background-color: #ffffff;
+    color: #424242;
+}
+
+.home-button {
+    position: fixed;       /* stays in corner while scrolling */
+    top: 20px;
+    left: 20px;            /* or right: 20px; */
+    text-decoration: none; /* remove underline */
+    font-size: 50px;       /* size of text */
+    
+    color: white;          /* text color */
+    padding: 8px 12px;     /* space inside button */
+    border-radius: 5px;    /* rounded corners */
+    z-index: 1000;         /* always on top */
+}
