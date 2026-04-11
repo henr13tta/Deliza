@@ -20,10 +20,7 @@ nav a {
     font-weight: bold;
 }
 
-nav a.active {
-    text-decoration: underline;
-    
-}
+
 
 body.index {
     background-color: #424242;
