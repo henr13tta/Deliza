@@ -18,6 +18,7 @@ nav a {
     margin: 0 30px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 30px;
 }
 
 
@@ -44,3 +45,16 @@ body.gallery {
     border-radius: 5px;    /* rounded corners */
     z-index: 1000;         /* always on top */
 }
+
+.fixed-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #424242;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 0;
+  color: rgb(206, 206, 206);
+}
+
